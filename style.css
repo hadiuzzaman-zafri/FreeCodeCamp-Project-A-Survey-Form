@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:azure;
+}
+
+#logo img{
+    width: 150px;
+    padding: 20px;
+    margin: auto;
+    display: block;
+    border-radius: 20%;
+
+}
+
+body .title {
+    margin: 40px;  
+}
+
+h1, p {
+    text-align: center;
+}
+
+#description {
+    padding-top: 10px;
+}
+
+form {
+    margin: 20px;
+    /*display: block;*/
+}
+
+#survey-form {
+    font-size: medium;   
+}
+
+
+
+.number > input {
+    margin-left: 12px;
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 3px;
+    width: 30%;
+}
+.age > input{
+    margin-left: 28px;
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 3px;
+    width: 30%;
+}
+.name > input{
+    margin-left: 15px;
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 3px;
+    width: 30%;
+}
+.email > input{
+    margin-left: 15px;
+    padding: 2px;
+    border: 2px solid;
+    border-radius: 3px;
+    width: 30%;
+}
+
+.name, .age, .number, .email {
+    padding-top: 10px;
+    text-align: center;  
+}
+
+.current-role, .interested-role {
+    padding-top: 30px;
+    margin: auto;
+    display: block;
+}
+
+.current-role label {
+    padding-top: 10px;
+}
+
+.current-role select {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.current-role select,.current-role label{
+    display: block;
+    /*text-align: left;*/
+}
+
+.interested-role label {
+    padding-top: 10px;
+}
+
+.interested-role select {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.interested-role select,.interested-role label{
+    display: block;
+    /*text-align: left;*/
+}
+
+.role-selection{
+    display: flex;
+    padding: 0px 60px;
+}
+
+.form-group{
+    margin-left: 10%;
+}
+
+.form-paragraph {
+    text-align: left;
+    padding-top: 25px;
+    margin: 8px;
+}
+.position{ 
+    display: block;
+    padding-left: 10px;
+    padding-top: 7px;   
+}
+
+.comfortable-tech-desc {
+    padding: 30px 0px 10px 0px;
+}
+.comfortable-tech label {
+    display: inline-block;
+    padding: 10px;   
+}
+
+.comfortable-tech input {
+    margin-left: 5px;
+}
+
+.comment{
+    margin: 10px;
+    padding: 20px;
+    text-align: center;   
+}
+
+.comment p {
+    padding: 20px;
+    
+}
+
+textarea {  
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+#submit {
+    display: block;
+    margin: auto;
+    padding: 10px;
+    border-style: solid 2px;
+    font-weight: bold;
+    font-size: medium;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#submit:hover{
+    background-color: antiquewhite;
+}
+
+footer{
+    padding: 20px 0px 40px;
+}
+
+

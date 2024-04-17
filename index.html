@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="logo">
+        <img src="survey-form-blackcat-logo.png" alt="logo">
+    </div>
+    <div class="title">
+        <h1 id="title">Tell Us About Your Tech-Expertise</h1>
+        <p id="description">Mention the job-relevant technical skills and tools you possess that are relevant to
+             the job you are applying for.</p>
+    </div>
+    <form id="survey-form">
+        <div class="name">
+            <label for="name" id="name-lebel">Enter Your Name</label>
+            <input id="name" name="name" type="text" placeholder="Enter your name"> 
+        </div>
+        <div class="email">
+            <label for="email" id="email-lebel">Enter Your Email</label>
+            <input type="email" name="email" id="email" placeholder="john@gmail.com">
+        </div>
+        <div class="number">
+            <label for="number" id="number-lebel">Enter Your Phone</label>
+            <input type="number" name="number" id="number" minlength="11" maxlength="11" placeholder="Ex. 0178XXXXXX9">
+        </div>
+        <div class="age">
+            <label for="age" id="age-lebel">Enter Your Age</label>
+            <input type="text" name="age" id="age" min="13" max="70" placeholder="Ex. 20">
+        </div>
+    <div class="role-selection">
+        <div class="current-role">
+            <label for="current-role">Describe Your Current Role</label>
+            <select name="current-role" id="dropdown" required>
+                <option disabled selected value> Select Current Role</option>
+                <option value="student">Student</option>
+                <option value="front-end">Front-End Developer</option>
+                <option value="back-end">Back-End Developer</option>
+                <option value="Full-Stack">Full-Stack Developer</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="interested-role">
+            <label for="current-role">Select Your Interested Role</label>
+            <select name="current-role" id="dropdown" required>
+                <option disabled selected value> Select Interested Role</option>
+                <!--<option value="">Student</option>-->
+                <option value="front-end">Front-End Developer</option>
+                <option value="back-end">Back-End Developer</option>
+                <option value="Full-Stack">Full-Stack Developer</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+    </div> 
+    <div class="form-group">
+        <p class="form-paragraph">Which Position You are interested ?</p>
+        <label for="postion" class="position">
+            <input type="radio" name="position" id="position" value="Internship" class="input-radio" checked> Internship
+        </label>
+        <label for="postion" class="position">
+            <input type="radio" name="position" id="position" value="Full Time" class="input-radio" > Full Time
+        </label>
+        <label for="postion" class="position">
+            <input type="radio" name="position" id="position" value="Part Time" class="input-radio" > Part Time
+        </label>
+        <label for="postion" class="position">
+            <input type="radio" name="position" id="position" value="Remote" class="input-radio" > Remote
+        </label>
+    </div>   
+    <div class="form-group">
+        <p class="form-paragraph">Which field you are strong in ?</p>
+        <label for="strong-field" class="position">
+            <input type="radio" name="strong-field" id="strong-field" value="data-structure-and-algorithm" class="input-radio" checked> Data Structure and Algorithm
+        </label>
+        <label for="strong-field" class="position">
+            <input type="radio" name="strong-field" id="strong-field" value="front-end-development" class="input-radio" > Front-End Development
+        </label>
+        <label for="strong-field" class="position">
+            <input type="radio" name="strong-field" id="strong-field" value="back-end-development" class="input-radio" > Back-End Development
+        </label>
+        <label for="strong-field" class="position">
+            <input type="radio" name="strong-field" id="strong-field" value="App Development" class="input-radio" > App Development
+        </label>
+    </div>
+    <div class="comfortable-tech">
+        <p class="comfortable-tech-desc">Technology You are comfortable with !</p>
+        <label for="css"><input type="checkbox" name="css" id="css" value="css" class="input-checkbox"> CSS</label>
+        <label for="html"><input type="checkbox" name="html" id="html" value="html" class="input-checkbox"> HTML</label>
+        <label for="react"><input type="checkbox" name="react" id="react" value="react" class="input-checkbox"> React</label>
+        <label for="c++"><input type="checkbox" name="c++" id="c++" value="c++" class="input-checkbox"> C++</label>
+        <label for="java"><input type="checkbox" name="java" id="java" value="java" class="input-checkbox"> Java</label>
+        <label for="python"><input type="checkbox" name="python" id="pyhton" value="python" class="input-checkbox"> Python</label>
+        <label for="dsa"><input type="checkbox" name="dsa" id="dsa" value="dsa" class="input-checkbox"> DSA</label>
+        <label for="flutter"><input type="checkbox" name="flutter" id="flutter" value="flutter" class="input-checkbox"> Flutter</label>
+        <label for="rust"><input type="checkbox" name="rust" id="rust" value="rust" class="input-checkbox"> Rust</label>
+
+    </div>
+    <div class="comment">
+        <p for="comment" class="comment-para">Do You Have Any Query ?</p>
+        <textarea id="comment" name="comment" rows="4" cols="50">
+        </textarea> 
+    </div>
+    <button id="submit">Submit</button>
+    </form>
+
+    <footer>
+        <p>Creater by MD HADIUZZAMAN ZAFRI</p>
+    </footer>
+    
+</body>
+</html>
